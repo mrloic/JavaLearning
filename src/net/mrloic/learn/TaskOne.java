@@ -38,6 +38,5 @@ public class TaskOne {
         System.out.println("Кандидат на увольнение: " + worker[min_out_index]);
 
     }
-    
 
 }
