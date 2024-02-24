@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1592c784-b862-4074-bbd0-0ed25beb9b88" name="Changes" comment="dd">
+      <change afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/two/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/two/TaskTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/JavaLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/JavaLearning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/TaskOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/JavaLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/main/JavaLearning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/one/TaskOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +68,11 @@
 }</component>
   <component name="RunManager">
     <configuration name="JavaLearning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.mrloic.learn.JavaLearning" />
+      <option name="MAIN_CLASS_NAME" value="net.mrloic.learn.main.JavaLearning" />
       <module name="JavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.mrloic.learn.*" />
+          <option name="PATTERN" value="net.mrloic.learn.tasks.one.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,7 +134,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707986952899</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dd">
+      <option name="closed" value="true" />
+      <created>1708595691617</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708595691617</updated>
+    </task>
+    <task id="LOCAL-00006" summary="dd">
+      <option name="closed" value="true" />
+      <created>1708595976836</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708595976836</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
