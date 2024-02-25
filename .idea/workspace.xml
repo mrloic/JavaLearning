@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1592c784-b862-4074-bbd0-0ed25beb9b88" name="Changes" comment="dd">
-      <change afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/four/LightClothing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/four/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/four/Outerwear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/four/TaskFour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/three/LightClothing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/three/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/three/Outerwear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/three/TaskThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/main/JavaLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/main/JavaLearning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/four/LightClothing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/four/LightClothing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/four/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/four/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/four/Outerwear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/four/Outerwear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/three/LightClothing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/three/LightClothing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/three/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/three/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/three/Outerwear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/three/Outerwear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/three/TaskThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/three/TaskThree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/two/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/two/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/two/TaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/two/TaskTwo.java" afterDir="false" />
     </list>
@@ -190,7 +187,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708805202580</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="dd">
+      <option name="closed" value="true" />
+      <created>1708852224989</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708852224989</updated>
+    </task>
+    <task id="LOCAL-00011" summary="dd">
+      <option name="closed" value="true" />
+      <created>1708852387455</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708852387455</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
