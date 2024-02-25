@@ -7,6 +7,7 @@ package net.mrloic.learn.tasks.three;
 одежда (подкладка, количество примерок). Создать консольное приложение для вывода данных
 объектов.
 */
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 public class TaskThree {
