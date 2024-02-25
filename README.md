@@ -1,5 +1,9 @@
 # Репозиторий GitHub "JavaLearning" - Вариант №9
 
+## Описание
+
+Этот репозиторий содержит решения для 5 заданий по изучению Java.
+
 ## Задания
 
 ### Первое задание - [JavaLearning.One](https://github.com/mrloic/JavaLearning/tree/master/src/net/mrloic/learn/tasks/one)
