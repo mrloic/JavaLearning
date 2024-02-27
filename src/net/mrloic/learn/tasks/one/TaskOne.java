@@ -11,32 +11,32 @@ public class TaskOne {
     {
         String[] worker = {"Соболев","Титов","Ларионов","Комаров","Гордеев"};
         int[] output = {40,320,54,87,12};
-        int max_out = 0;
-        int max_out_index = 0;
+        int maxOut = 0;
+        int maxOutIndex = 0;
 
 
         for (int i=0; i<output.length; i++)
         {
-            if (max_out<output[i])
+            if (maxOut < output[i])
             {
-                max_out=output[i];
-                max_out_index=i;
+                maxOut = output[i];
+                maxOutIndex = i;
             }
         }
 
-        int min_out = max_out;
-        int min_out_index = 0;
+        int minOut = maxOut;
+        int minOutIndex = 0;
         for (int i=0; i<output.length; i++)
         {
-            if (min_out>output[i])
+            if (minOut > output[i])
             {
-                min_out=output[i];
-                min_out_index=i;
+                minOut = output[i];
+                minOutIndex = i;
             }
         }
 
-        System.out.println("Кандидат на увеличение зарплаты: " + worker[max_out_index]);
-        System.out.println("Кандидат на увольнение: " + worker[min_out_index]);
+        System.out.println("Кандидат на увеличение зарплаты: " + worker[maxOutIndex]);
+        System.out.println("Кандидат на увольнение: " + worker[minOutIndex]);
 
     }
 

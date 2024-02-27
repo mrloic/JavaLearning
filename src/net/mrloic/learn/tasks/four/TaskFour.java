@@ -28,8 +28,8 @@ public class TaskFour {
         String search_surname = "Иванов";
         System.out.println("Результаты поиска по фамилии клиента " + search_surname + ":");
         for (Order order : orders) {
-            if (order.search_by_client_surname(search_surname)) {
-                order.print_info();
+            if (order.searchByClientSurname(search_surname)) {
+                order.printInfo();
                 System.out.println();
             }
         }
@@ -38,8 +38,8 @@ public class TaskFour {
         LocalDate search_date = LocalDate.now(); // Поиск по текущей дате
         System.out.println("Результаты поиска по дате заказа " + search_date.format(formatter) + ":");
         for (Order order : orders) {
-            if (order.search_by_order_date(search_date)) {
-                order.print_info();
+            if (order.searchByOrderDate(search_date)) {
+                order.printInfo();
                 System.out.println();
             }
         }

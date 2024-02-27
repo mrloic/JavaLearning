@@ -13,77 +13,78 @@ import java.time.format.DateTimeFormatter;
 
 public class Order
 {
-    private String client_surname; //фамилия клиента
-    private String item_type; //вид изделия
-    private LocalDate order_date; //дата заказа
+    private String clientSurname; //фамилия клиента
+    private String itemType; //вид изделия
+    private LocalDate orderDate; //дата заказа
     private boolean urgent; //срочность
 
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 
-    public Order(String client_surname, String item_type, LocalDate order_date, boolean urgent)
+    public Order(String clientSurname, String itemType, LocalDate orderDate, boolean urgent)
     {
-        this.client_surname = client_surname;
-        this.item_type = item_type;
-        this.order_date = order_date;
+        this.clientSurname = clientSurname;
+        this.itemType = itemType;
+        this.orderDate = orderDate;
         this.urgent = urgent;
     }
 
     // Геттеры и сеттеры для всех полей
-    public String get_client_surname()
+    public String getClientSurname()
     {
-        return client_surname;
+        return clientSurname;
     }
 
-    public void set_client_surname(String client_surname)
+    public void setClientSurname(String clientSurname)
     {
-        this.client_surname = client_surname;
+        this.clientSurname = clientSurname;
     }
 
-    public String get_item_type()
+    public String getItemType()
     {
-        return item_type;
+        return itemType;
     }
 
-    public void set_item_type(String item_type)
+    public void setItemType(String itemType)
     {
-        this.item_type = item_type;
+        this.itemType = itemType;
     }
 
-    public LocalDate get_order_date()
+    public LocalDate getOrderDate()
     {
-        return order_date;
+        return orderDate;
     }
 
-    public void set_order_date(LocalDate order_date)
+    public void setOrderDate(LocalDate orderDate)
     {
-        this.order_date = order_date;
+        this.orderDate = orderDate;
     }
 
-    public boolean is_urgent()
+    public boolean isUrgent()
     {
         return urgent;
     }
-    public void set_urgent(boolean urgent)
+
+    public void setUrgent(boolean urgent)
     {
         this.urgent = urgent;
     }
 
     // Виртуальный метод поиска по фамилии клиента
-    public boolean search_by_client_surname(String surname) {
-        return this.client_surname.equals(surname);
+    public boolean searchByClientSurname(String surname) {
+        return this.clientSurname.equals(surname);
     }
 
     // Виртуальный метод поиска по дате заказа
-    public boolean search_by_order_date(LocalDate date) {
-        return this.order_date.equals(date);
+    public boolean searchByOrderDate(LocalDate date) {
+        return this.orderDate.equals(date);
     }
 
     // Вывод информации по всем полям
-    public void print_info()
+    public void printInfo()
     {
-        System.out.println("Фамилия клиента: " + this.client_surname);
-        System.out.println("Вид изделия: " + this.item_type);
-        System.out.println("Дата заказа: " + this.order_date.format(formatter));
+        System.out.println("Фамилия клиента: " + this.clientSurname);
+        System.out.println("Вид изделия: " + this.itemType);
+        System.out.println("Дата заказа: " + this.orderDate.format(formatter));
         System.out.println("Срочность: " + this.urgent);
     }
 

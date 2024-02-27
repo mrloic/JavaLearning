@@ -20,11 +20,19 @@ public class LightClothing extends Order
     }
 
     // Getter and Setter for complexity
-    public String get_complexity() {
+    public String getComplexity() {
         return complexity;
     }
 
-    public void set_complexity(String complexity) {
+    public void setComplexity(String complexity) {
         this.complexity = complexity;
+    }
+
+    public void printInfo() {
+        System.out.println("Фамилия клиента: " + this.getClientSurname());
+        System.out.println("Вид изделия: " + this.getItemType());
+        System.out.println("Дата заказа: " + this.getOrderDate().format(formatter));
+        System.out.println("Срочность: " + this.isUrgent());
+        System.out.println("Сложность: " + this.getComplexity());
     }
 }

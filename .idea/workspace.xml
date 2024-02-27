@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1592c784-b862-4074-bbd0-0ed25beb9b88" name="Changes" comment="dd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/four/LightClothing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/four/LightClothing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/four/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/four/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/four/Outerwear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/four/Outerwear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/four/TaskFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/four/TaskFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/one/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/one/TaskOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +36,9 @@
         <option name="url" value="https://github.com/mrloic/JavaLearning.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
@@ -207,11 +207,20 @@
       <option name="project" value="LOCAL" />
       <updated>1708852457292</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="dd">
+      <option name="closed" value="true" />
+      <created>1708854029372</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708854029372</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dd" />
     <option name="LAST_COMMIT_MESSAGE" value="dd" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

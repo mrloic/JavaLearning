@@ -16,134 +16,137 @@ package net.mrloic.learn.tasks.two;
 */
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Product
 {
-    private int receipt_number; //номер квитанции
-    private LocalDate date_of_receipt_of_the_order; //дата получения заказа
-    private int due_date; //срок выполнения(в днях)
-    private String product_name; //название изделия
+    private int receiptNumber; //номер квитанции
+    private LocalDate dateOfReceiptOfTheOrder; //дата получения заказа
+    private int dueDate; //срок выполнения(в днях)
+    private String productName; //название изделия
     private String fabric; //ткань
-    private double cost_of_the_product; //стоимость изделия
-    private String category_of_complexity; //категория сложности
+    private double costOfTheProduct; //стоимость изделия
+    private String categoryOfComplexity; //категория сложности
     private boolean urgency; //срочность
 
+    static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+    
     // Конструктор без параметров
     public Product()
     {
-        this.receipt_number = 0;
-        this.date_of_receipt_of_the_order = LocalDate.now();
-        this.due_date = 0;
-        this.product_name = "";
+        this.receiptNumber = 0;
+        this.dateOfReceiptOfTheOrder = LocalDate.now();
+        this.dueDate = 0;
+        this.productName = "";
         this.fabric = "";
-        this.cost_of_the_product = 0.0;
-        this.category_of_complexity = "";
+        this.costOfTheProduct = 0.0;
+        this.categoryOfComplexity = "";
         this.urgency = false;
     }
 
     // Конструктор с параметрами
-    public Product(int receipt_number, LocalDate date_of_receipt_of_the_order, int due_date,
-                   String product_name, String fabric, double cost_of_the_product,
-                   String category_of_complexity, boolean urgency)
+    public Product(int receiptNumber, LocalDate dateOfReceiptOfTheOrder, int dueDate,
+                   String productName, String fabric, double costOfTheProduct,
+                   String categoryOfComplexity, boolean urgency)
     {
-        this.receipt_number = receipt_number;
-        this.date_of_receipt_of_the_order = date_of_receipt_of_the_order;
-        this.due_date = due_date;
-        this.product_name = product_name;
+        this.receiptNumber = receiptNumber;
+        this.dateOfReceiptOfTheOrder = dateOfReceiptOfTheOrder;
+        this.dueDate = dueDate;
+        this.productName = productName;
         this.fabric = fabric;
-        this.cost_of_the_product = cost_of_the_product;
-        this.category_of_complexity = category_of_complexity;
+        this.costOfTheProduct = costOfTheProduct;
+        this.categoryOfComplexity = categoryOfComplexity;
         this.urgency = urgency;
     }
 
     // Геттеры и сеттеры для всех полей
-    public int get_receipt_number()
+    public int getReceiptNumber()
     {
-        return receipt_number;
+        return receiptNumber;
     }
 
-    public void set_receipt_number(int receipt_number)
+    public void setReceiptNumber(int receiptNumber)
     {
-        this.receipt_number = receipt_number;
+        this.receiptNumber = receiptNumber;
     }
 
-    public LocalDate get_date_of_receipt_of_the_order()
+    public LocalDate getDateOfReceiptOfTheOrder()
     {
-        return date_of_receipt_of_the_order;
+        return dateOfReceiptOfTheOrder;
     }
 
-    public void set_date_of_receipt_of_the_order(LocalDate date_of_receipt_of_the_order)
+    public void setDateOfReceiptOfTheOrder(LocalDate dateOfReceiptOfTheOrder)
     {
-        this.date_of_receipt_of_the_order = date_of_receipt_of_the_order;
+        this.dateOfReceiptOfTheOrder = dateOfReceiptOfTheOrder;
     }
 
-    public int get_due_date()
+    public int getDueDate()
     {
-        return due_date;
+        return dueDate;
     }
 
-    public void set_due_date(int due_date)
+    public void setDueDate(int dueDate)
     {
-        this.due_date = due_date;
+        this.dueDate = dueDate;
     }
 
-    public String get_product_name()
+    public String getProductName()
     {
-        return product_name;
+        return productName;
     }
 
-    public void set_product_name(String product_name)
+    public void setProductName(String productName)
     {
-        this.product_name = product_name;
+        this.productName = productName;
     }
 
-    public String get_fabric()
+    public String getFabric()
     {
         return fabric;
     }
 
-    public void set_fabric(String fabric)
+    public void setFabric(String fabric)
     {
         this.fabric = fabric;
     }
 
-    public double get_cost_of_the_product()
+    public double getCostOfTheProduct()
     {
-        return cost_of_the_product;
+        return costOfTheProduct;
     }
 
-    public void set_cost_of_the_product(double cost_of_the_product)
+    public void setCostOfTheProduct(double costOfTheProduct)
     {
-        this.cost_of_the_product = cost_of_the_product;
+        this.costOfTheProduct = costOfTheProduct;
     }
 
-    public String get_category_of_complexity()
+    public String getCategoryOfComplexity()
     {
-        return category_of_complexity;
+        return categoryOfComplexity;
     }
 
-    public void set_category_of_complexity(String category_of_complexity)
+    public void setCategoryOfComplexity(String categoryOfComplexity)
     {
-        this.category_of_complexity = category_of_complexity;
+        this.categoryOfComplexity = categoryOfComplexity;
     }
 
-    public boolean is_urgency()
+    public boolean isUrgency()
     {
         return urgency;
     }
 
-    public void set_urgency(boolean urgency)
+    public void setUrgency(boolean urgency)
     {
         this.urgency = urgency;
     }
 
     // Вычисляемое поле: стоимость пошива
-    public double get_cost_of_tailoring()
+    public double getCostOfTailoring()
     {
-        double cost = cost_of_the_product;
+        double cost = costOfTheProduct;
 
         // Учитываем сложность
-        if (category_of_complexity.equals("complex"))
+        if (categoryOfComplexity.equals("complex"))
         {
             cost *= 1.5; // Например, увеличиваем на 50%
         }
@@ -158,16 +161,29 @@ public class Product
     }
 
     // Вычисляемое поле: дата завершения заказа
-    public LocalDate get_date_of_completion_of_the_order()
+    public LocalDate getDateOfCompletionOfTheOrder()
     {
-        LocalDate completionDate = date_of_receipt_of_the_order.plusDays(due_date);
+        LocalDate completionDate = dateOfReceiptOfTheOrder.plusDays(dueDate);
 
         // Если заказ срочный, уменьшаем срок вдвое
         if (urgency)
         {
-            completionDate = completionDate.minusDays(due_date / 2);
+            completionDate = completionDate.minusDays(dueDate / 2);
         }
 
         return completionDate;
+    }
+
+    public void printInfo() {
+        System.out.println("Номер квитанции: " + this.getReceiptNumber());
+        System.out.println("Дата получения: " + this.getDateOfReceiptOfTheOrder().format(formatter));
+        System.out.println("Срок выполнения: " + this.getDueDate());
+        System.out.println("Название изделия: " + this.getProductName());
+        System.out.println("Ткань: " + this.getFabric());
+        System.out.println("Стоимость продукта: " + this.getCostOfTheProduct());
+        System.out.println("Категория сложности: " + this.getCategoryOfComplexity());
+        System.out.println("Срочность: " + this.isUrgency());
+        System.out.println("Стоимость пошива: " + this.getCostOfTailoring());
+        System.out.println("Дата завершения: " + this.getDateOfCompletionOfTheOrder().format(formatter));
     }
 }
