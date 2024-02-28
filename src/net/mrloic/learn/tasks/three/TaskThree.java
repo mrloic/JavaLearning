@@ -14,6 +14,7 @@ public class TaskThree {
     public static void StartThree()
     {
 
+
         // Создаем объекты заказов
         LocalDate orderDate1 = LocalDate.now(); // Текущая дата
         Order order1 = new Order("Иванов", "легкая одежда", orderDate1, true);

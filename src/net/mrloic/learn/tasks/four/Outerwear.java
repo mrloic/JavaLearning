@@ -11,7 +11,6 @@ import java.time.LocalDate;
 выводить информацию по всем полям.
 */
 
-
 public class Outerwear extends Order
 {
     private String lining;

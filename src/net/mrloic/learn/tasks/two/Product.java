@@ -15,6 +15,7 @@ package net.mrloic.learn.tasks.two;
 срочном заказе срок уменьшается в 2 раза).
 */
 
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 

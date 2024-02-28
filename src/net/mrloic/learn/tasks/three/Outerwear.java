@@ -21,6 +21,7 @@ public class Outerwear extends Order
         this.fittingCount = fittingCount;
     }
 
+
     // Getters and Setters
     public String getLining() {
         return lining;
