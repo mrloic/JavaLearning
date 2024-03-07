@@ -53,4 +53,3 @@ public class TaskTwo
         product2.printInfo();
     }
 }
-
