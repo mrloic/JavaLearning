@@ -1,11 +1,9 @@
 package net.mrloic.learn.main;
 
-
 import net.mrloic.learn.tasks.one.TaskOne;
 import net.mrloic.learn.tasks.two.TaskTwo;
 import net.mrloic.learn.tasks.three.TaskThree;
 import net.mrloic.learn.tasks.four.TaskFour;
-
 
 public class JavaLearning
 {
