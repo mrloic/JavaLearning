@@ -11,8 +11,9 @@ public class JavaLearning
 {
     public static void main(String[] args)
     {
+
         //TaskOne.StartOne(); //Защищена
-        //TaskTwo.StartTwo();
+        //TaskTwo.StartTwo(); //Защищена
         //TaskThree.StartThree();
         //TaskFour.StartFour();
     }
