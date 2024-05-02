@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1592c784-b862-4074-bbd0-0ed25beb9b88" name="Changes" comment="dd">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaLearning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/main/JavaLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/main/JavaLearning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/two/TaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrloic/learn/tasks/two/TaskTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,19 +32,23 @@
     &quot;assignee&quot;: &quot;mrloic&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="0e71b537-bd7b-4f7d-b0bd-f72dd139bbd1" />
-        <option name="url" value="https://github.com/mrloic/JavaLearning.git" />
-      </UrlAndAccount>
-    </option>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mrloic/JavaLearning.git&quot;,
+    &quot;accountId&quot;: &quot;0e71b537-bd7b-4f7d-b0bd-f72dd139bbd1&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/net/mrloic/learn/tasks/three/LightClothing.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/net/mrloic/learn/tasks/three/Order.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/net/mrloic/learn/tasks/three/Outerwear.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/net/mrloic/learn/tasks/three/TaskThree.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -62,9 +69,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/deck/Desktop/GOBOV",
+    "last_opened_file_path": "/home/deck/Downloads/plugin/TranslationPlugin-3.5.8.zip",
     "onboarding.tips.debug.path": "/home/deck/IdeaProjects/JavaLearning/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preference.HighlighterSettingsProjectConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -94,13 +105,6 @@
         <item itemvalue="Application.JavaLearning" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-temurin-21.0.2-3183f394aec4-44d4b070" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -239,7 +243,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709806025575</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="dd">
+      <option name="closed" value="true" />
+      <created>1712225916474</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1712225916474</updated>
+    </task>
+    <task id="LOCAL-00018" summary="dd">
+      <option name="closed" value="true" />
+      <created>1712225942438</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1712225942438</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

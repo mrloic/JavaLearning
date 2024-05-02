@@ -9,10 +9,9 @@ public class JavaLearning
 {
     public static void main(String[] args)
     {
-
         //TaskOne.StartOne(); //Защищена
         //TaskTwo.StartTwo(); //Защищена
-        //TaskThree.StartThree();
+        //TaskThree.StartThree(); //Защищена
         //TaskFour.StartFour();
     }
 }

@@ -1,0 +1,7 @@
+
+U
+java:S1118":Add a private constructor to hide the implicit public one.(£Å±Ñøÿÿÿÿ
+b	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ÀØ
+E	java:S106/"+Replace this use of System.out by a logger.(ÂŽŒðøÿÿÿÿ
+E	java:S1062"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ
+E	java:S1064"+Replace this use of System.out by a logger.(‹Ùí±ûÿÿÿÿ
